@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>To My Girl MJF | 2018</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="css/demo.css" />
+  <link rel="stylesheet" href="css/templatemo-style.css">
+  
+  <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+  <script type="text/javascript" src="js/time.js"></script>
+
+
+		
+	</head>
+
+	<body>
+
+			<div id="particles-js"></div>
+
+
+			<div class="container-fluid">
+				<div class="row cb-slideshow-text-container ">
+					<div class= "tm-content col-xl-6 col-sm-8 col-xs-8 ml-auto section">
+					<header class="mb-5"><h1>To 女神</h1></header>
+					<P class="mb-5" id="t">
+							<ins>1.0</ins>一眨眼已经一起那么久
+						<br /><ins>1.5</ins>渐渐熟悉你的<del>脾气</del>温柔
+						<br /><br /><ins>1</ins>
+						以后每年都要<br />牵着你的手
+						<br />去更多好玩的地方
+						<br />
+						<br />祝你一直那么<del>讨厌<ins>0.6</ins></del><del>可爱<ins>1.0</ins></del><br /><mark>漂亮温柔<br />大方得体<br />善解人意<br />人见人爱</mark>
+						<br />
+						</P>
+					</div>
+				</div>	
+				<div class="footer-link">
+					<span id="span_dt_dt"> </span>
+				</div>
+			</div>	
+	</body>
+
+	<script type="text/javascript" src="js/HackTimer.min.js"></script>
+	<script type="text/javascript" src="js/HackTimerWorker.min.js"></script>
+	<script type="text/javascript" src="js/particles.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/t.min.js"></script>
+	<script type="text/javascript">
+		/*<![CDATA[*/
+		var fin = !1;
+		$(function() {
+			$('.tagline').css("opacity", "1");
+			$('#t').t({
+				speed: 57,
+				delay: 0.8,
+				speed_vary: true,
+				mistype: 40,
+				typing: function(elem, chars_total, chars_left, _char) {
+					if (_char == '*') foo();
+				},
+				fin: function() {
+					if (fin == !1) {
+						fin = !!1; //avoids triggering after 'add' cmd
+						window.setInterval(function() {
+							$('#t').find('.t-caret').toggle();
+						}, 5e2);
+					}
+				}
+			});
+		});
+		/*]]>*/
+	</script>
+</html>
